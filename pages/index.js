@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Nav/NavBar";
 import Card from "../components/ProjectsCards/Cards";
+import SkillsGrid from "../components/SkillsGrid/SkillsGrid";
 
 export default function Home() {
   return (
@@ -15,20 +17,10 @@ export default function Home() {
       <main>
         <Navbar />
         <Hero />
+
         <Card />
+        <Footer />
       </main>
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
     </div>
   );
 }
