@@ -10,6 +10,7 @@ export default function Card() {
       </h2>
       {projectsData.map((cardData) => (
         <div
+          id="projects-section"
           key={cardData.name}
           className="lg:mx-auto lg:max-w-7xl lg:px-6 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start"
         >
