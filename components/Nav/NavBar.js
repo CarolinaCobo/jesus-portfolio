@@ -44,24 +44,22 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                  <a
-                    href="#projects-section"
-                    className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                  >
-                    Portfolio
-                  </a>
-                  <a
-                    href="/about"
-                    className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                  >
-                    About
-                  </a>
-                  <a
-                    href="/contact"
-                    className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                  >
-                    Contact
-                  </a>
+                  <Link href="#projects-section" passHref={true}>
+                    <a className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                      Portfolio
+                    </a>
+                  </Link>
+
+                  <Link href="/about" passHref={true}>
+                    <a className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                      About
+                    </a>
+                  </Link>
+                  <Link href="/contact" passHref={true}>
+                    <a className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                      Contact
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -71,10 +69,11 @@ export default function Navbar() {
             <div className="pt-2 pb-4 space-y-1">
               <Disclosure.Button
                 as="a"
-                href="/"
                 className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
-                Home
+                <Link href="/" passHref={true}>
+                  <a>Home</a>
+                </Link>
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
@@ -83,19 +82,18 @@ export default function Navbar() {
               >
                 Portfolio
               </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/about"
-                className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              >
-                About
+              <Disclosure.Button className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+                <Link href="/about" passHref={true}>
+                  <a>About</a>
+                </Link>
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="/contact"
                 className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
-                Contact
+                <Link href="/contact" passHref={true}>
+                  <a>Contact</a>
+                </Link>
               </Disclosure.Button>
             </div>
           </Disclosure.Panel>
