@@ -6,13 +6,14 @@ export default function Hero() {
           <div className=" m-4">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
               Hi, I&apos;m{" "}
-              <span className="decoration-indigo-600 underline hover:animate-pulse">
+              <span className="decoration-sky-600 underline hover:animate-pulse">
                 Jesús
               </span>
             </h2>
-            <p className="text-base font-semibold text-gray-600 tracking-wide uppercase mt-3 max-w-md">
+            <p className="text-base font-semibold text-sky-800 tracking-wide uppercase mt-3 max-w-md">
               I design and develop learning solutions to match your business
-              needs. Welcome to my portfolio.
+              needs.
+              <p className="mt-2">Welcome to my portfolio.</p>
               {/* Instructional Designer and eLearning Developer */}
             </p>
             {/* <p className="max-w-xl mt-5  text-l text-gray-900">

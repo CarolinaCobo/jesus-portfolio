@@ -34,7 +34,7 @@ export default function Card() {
                 <div className="max-w-2xl mx-auto text-center pb-8">
                   <a
                     href={cardData.href}
-                    className="bg-indigo w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-50 sm:w-auto"
+                    className="bg-sky-700 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white hover:bg-sky-900 sm:w-auto"
                   >
                     Learn more
                   </a>
