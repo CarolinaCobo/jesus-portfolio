@@ -27,7 +27,7 @@ export default function Example() {
               </div>
               <div className="flex-shrink-0 text-white flex items-center justify-start">
                 <img
-                  className="block lg:hidden h-2 w-auto"
+                  className="block lg:hidden h-4 w-auto"
                   src="./logo.png"
                   alt="Workflow"
                 />

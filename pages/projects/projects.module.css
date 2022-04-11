@@ -1,0 +1,73 @@
+.post {
+  @apply text-lg md:text-xl leading-relaxed text-slate-800 max-w-3xl mx-2 sm:mx-6 md:mx-auto;
+}
+
+.post p,
+.post ul,
+.post ol {
+  @apply my-4;
+}
+
+.post a {
+  @apply transition duration-500 ease-in-out relative bg-clip-text text-transparent bg-gray-600;
+}
+
+.post a::after {
+  content: "";
+  @apply absolute -bottom-1 left-0 right-0 h-0.5 bg-gray-900;
+}
+
+.post a:hover,
+.post a:hover .post a::after {
+  @apply text-gray-900;
+}
+
+.post h1 {
+  @apply text-center text-black font-semibold tracking-wide uppercase mt-6;
+}
+
+.post h2 {
+  @apply text-3xl mt-2 mb-4 leading-snug font-semibold text-center;
+}
+
+.post h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug font-medium;
+}
+
+.post h4 {
+  @apply text-xl mt-8 mb-4 leading-snug font-medium;
+}
+.post h5 {
+  @apply text-xl mt-8 mb-4 leading-snug font-medium;
+}
+.post ul > li {
+  @apply list-disc ml-6;
+}
+
+.post ol > li {
+  @apply list-decimal ml-6;
+}
+
+.post > li > p {
+  @apply inline;
+}
+
+.post blockquote {
+  @apply bg-slate-200 py-2 px-6 border-l-8 border-slate-800 leading-snug font-semibold text-xl rounded-r text-slate-800 shadow;
+}
+
+.post code {
+  @apply bg-slate-200 p-2 rounded overflow-y-scroll;
+}
+
+.post i > code {
+  @apply inline p-1;
+}
+
+.post pre > code {
+  @apply bg-slate-200 p-2 text-sm;
+}
+
+.post div > pre > code {
+  @apply bg-slate-200 p-4 block text-sm overflow-y-scroll;
+}
