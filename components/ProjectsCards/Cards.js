@@ -4,8 +4,8 @@ const cardsData = projectsData;
 
 export default function Card() {
   return (
-    <div className="relative bg-white py-16 sm:py-24">
-      <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+    <div className="relative bg-white py-16 mb sm:py-24">
+      <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm: pb-8">
         Portfolio
       </h2>
       {projectsData.map((cardData) => (
@@ -31,7 +31,7 @@ export default function Card() {
               </h2>
               <div className="mt-6 text-gray-500 space-y-6">
                 <p className="text-lg">{cardData.description}</p>
-                <div className="max-w-2xl mx-auto text-center ">
+                <div className="max-w-2xl mx-auto text-center pb-8">
                   <a
                     href={cardData.href}
                     className="bg-indigo w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-50 sm:w-auto"
