@@ -2,7 +2,7 @@ export default function Projects({ projects }) {
   return (
     <>
       {projects.map((project) => (
-        <div key={projet.sys.id}>{project.fields.title}</div>
+        <div key={project.sys.id}>{project.fields.title}</div>
       ))}
     </>
   );
