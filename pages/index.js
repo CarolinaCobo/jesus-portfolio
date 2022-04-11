@@ -3,7 +3,6 @@ import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Nav/NavBar";
 import Card from "../components/ProjectsCards/Cards";
-import SkillsGrid from "../components/SkillsGrid/SkillsGrid";
 
 export default function Home() {
   return (

@@ -18,7 +18,7 @@ export default function Card() {
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
               <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
                 <img
-                  className="absolute inset-0 h-full w-full object-cover                  "
+                  className="absolute inset-0 h-full w-full object-cover"
                   src={cardData.imageUrl}
                   alt=""
                 />
@@ -27,7 +27,7 @@ export default function Card() {
           </div>
           <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
             <div className="pt-12 sm:pt-1 lg:pt-16">
-              <h2 className=" text-gray-900 font-bold tracking-tight sm:text-4xl">
+              <h2 className=" text-gray-900 font-bold tracking-tight sm:text-4xl pt-2">
                 {cardData.name}
               </h2>
               <div className="mt-6 text-gray-500 space-y-6">

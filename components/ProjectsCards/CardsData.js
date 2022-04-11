@@ -1,6 +1,6 @@
 const projectsData = [
   {
-    name: "HIPAA Privacy Rule",
+    name: "HIPAA Privacy Rule for Healthcare Employees",
     description: "Some stuff about HIPAA",
     href: "/projects/hipaa",
     imageUrl: "/hipaa.png",
