@@ -23,7 +23,7 @@
 }
 
 .post h1 {
-  @apply text-center text-black font-semibold tracking-wide uppercase mt-6;
+  @apply text-center text-3xl text-sky-800 font-semibold tracking-wide uppercase mt-6;
 }
 
 .post h2 {
@@ -31,7 +31,7 @@
 }
 
 .post h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug font-medium;
+  @apply text-3xl mt-8 mb-4 leading-snug font-medium;
 }
 
 .post h4 {

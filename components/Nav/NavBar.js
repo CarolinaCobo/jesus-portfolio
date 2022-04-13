@@ -4,7 +4,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -44,7 +44,7 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                  <Link href="#projects-section" passHref={true}>
+                  <Link href="/#projects-section" passHref={true}>
                     <a className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                       Portfolio
                     </a>
@@ -77,7 +77,7 @@ export default function Navbar() {
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                href="#projects-section"
+                href="/#projects-section"
                 className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
                 Portfolio
