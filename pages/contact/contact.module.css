@@ -1,0 +1,15 @@
+.body {
+  min-height: calc(100vh - 215px);
+}
+
+@media screen and (max-width: 1024px) {
+  .body {
+    min-height: calc(100vh - 270px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body {
+    min-height: calc(100vh - 330px);
+  }
+}

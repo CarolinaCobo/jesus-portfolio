@@ -4,8 +4,8 @@ const cardsData = projectsData;
 
 export default function Card() {
   return (
-    <div className="relative bg-white py-16 mb sm:py-24">
-      <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm: pb-8">
+    <div className="relative bg-white sm:pt-4">
+      <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl md:pt-8">
         Portfolio
       </h2>
       {projectsData.map((cardData) => (
@@ -16,9 +16,9 @@ export default function Card() {
         >
           <div className="relative sm:py-16 lg:py-0">
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
-              <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
+              <div className="relative pt-80 pb-10 rounded-2xl shadow-xl overflow-hidden">
                 <img
-                  className="absolute inset-0 h-full w-full object-cover"
+                  className="absolute inset-0 h-full w-full object-cover "
                   src={cardData.imageUrl}
                   alt=""
                 />
