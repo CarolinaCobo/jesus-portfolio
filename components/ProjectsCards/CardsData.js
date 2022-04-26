@@ -11,6 +11,12 @@ const projectsData = [
     href: "/projects/property-management",
     imageUrl: "/property-management.png",
   },
+  {
+    name: "Avoiding Stereotypes",
+    description: "Property management stuff",
+    href: "/projects/avoiding-stereotypes",
+    imageUrl: "/avoiding-stereotypes.png",
+  },
 ];
 
 export default projectsData;
