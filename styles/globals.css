@@ -24,3 +24,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@layer utilities {
+  .jesus-color-link {
+    @apply relative bg-clip-text text-transparent bg-gradient-to-b from-jesus-pink to-jesus-blue border-jesus-blue border-b-2 font-semibold transition-all duration-500;
+  }
+
+  .jesus-color-link:hover {
+    @apply bg-gradient-to-b from-jesus-pink to-jesus-blue border-jesus-blue;
+  }
+
+  .jesus-color-active {
+    @apply relative bg-clip-text text-transparent bg-gradient-to-b from-jesus-pink to-jesus-blue;
+  }
+
+  .jesus-color-active::after {
+    content: "";
+    @apply absolute -bottom-3 left-0 right-0 h-1 bg-gradient-to-b from-jesus-pink to-jesus-blue;
+  }
+
+  .jesus-color-active a:hover,
+  .jesus-color-active a:hover .jesus-color-active a::after {
+    @apply from-jesus-pink to-jesus-blue;
+  }
+}

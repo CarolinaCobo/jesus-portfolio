@@ -72,7 +72,7 @@ export default function Card() {
               <div
                 id="projects-section"
                 key={cardData.name}
-                className="flex flex-col rounded-lg shadow-lg overflow-hidden"
+                className="flex flex-col shadow-md overflow-hidden"
               >
                 <div className="flex-shrink-0" href={cardData.href}>
                   <img
@@ -84,7 +84,7 @@ export default function Card() {
                 <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div className="flex-1">
                     <a href={cardData.href}>
-                      <p className="text-xl leading-6 font-medium space-y-1 text-pink-600">
+                      <p className="text-xl leading-6 font-medium space-y-1 text-sky-600 ">
                         {cardData.name}
                       </p>
                     </a>
@@ -96,17 +96,20 @@ export default function Card() {
                     </a>
                   </div>
                   <div className="mt-5 sm:mt-8 sm:flex">
-                    <Link href={cardData.href}>
-                      <a className="rounded-md shadow w-full flex items-center justify-center px-8 py-3 border bg-pink-600  font-small text-white bg-bright hover:bg-light md:text-sm md:px-10">
-                        Learn more
-                      </a>
-                    </Link>
-
-                    <Link href="#testimonials-section">
-                      <a className="rounded-md shadow ml-2 w-full flex items-center justify-center px-8 py-3 border bg-white font-small text-dark bg-bright hover:bg-light md:text-sm md:px-10">
-                        Open project
-                      </a>
-                    </Link>
+                    <div className="w-full">
+                      <Link href={cardData.href}>
+                        <a className="flex items-center justify-center py-3 border bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-900  hover:to-sky-600 font-small text-white md:text-sm mb-2 sm:mb-0 md:mr-2">
+                          Learn more
+                        </a>
+                      </Link>
+                    </div>
+                    <div className="w-full">
+                      <Link href="#testimonials-section">
+                        <a className="w-full flex items-center justify-center py-3 border bg-white font-small text-dark md:text-sm bg-gradient-to-r hover:from-sky-600 hover:to-sky-500 hover:text-white">
+                          Open project
+                        </a>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

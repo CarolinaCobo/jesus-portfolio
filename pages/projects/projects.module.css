@@ -9,13 +9,13 @@
 }
 
 .post a {
-  @apply transition duration-500 ease-in-out relative bg-clip-text text-transparent bg-gray-600;
+  @apply transition duration-500 ease-in-out relative bg-clip-text text-transparent  bg-gray-600 grid justify-items-center border-solid border-4 border-sky-600 w-2/3 ml-32 p-3;
 }
 
-.post a::after {
+/* .post a::after {
   content: "";
   @apply absolute -bottom-1 left-0 right-0 h-0.5 bg-gray-900;
-}
+} */
 
 .post a:hover,
 .post a:hover .post a::after {

@@ -50,7 +50,7 @@ export default function Navbar() {
                     </a>
                   </Link>
 
-                  <Link href="projects/about" passHref={true}>
+                  <Link href="/projects/about-me" passHref={true}>
                     <a className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                       About
                     </a>
