@@ -13,8 +13,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main
+        className="relative bg-contain bg-no-repeat"
+        style={{
+          backgroundImage: "url(./banner.jpeg)",
+        }}
+      >
         <Navbar />
+
         <Hero />
 
         <Card />

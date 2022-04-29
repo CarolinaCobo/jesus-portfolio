@@ -1,12 +1,10 @@
 export default function Hero() {
   return (
-    <div
-      className="bg-cover bg-center py-32"
-      style={{ backgroundImage: "url(./banner.png)" }}
-    >
+    <div className=" bg-center py-48  ">
+      {/* <div className="absolute inset-0 bg-gray-50 mix-blend-multiply" /> */}
       <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 ">
         <div className="sm:text-center lg:text-left">
-          <h1 className="text-4xl tracking-tight font-extrabold text-gray-100 sm:text-5xl md:text-6xl">
+          <h1 className="text-4xl tracking-tight font-extrabold text-gray-100 sm:text-5xl md:text-6xl ">
             <span className="">Hi, I&apos;m </span>{" "}
             <span className=" text-sky-600 ">Jesús</span>
           </h1>

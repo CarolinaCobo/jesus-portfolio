@@ -7,7 +7,7 @@ export default function Navbar() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8  bg-opacity-100  ">
             <div className="relative flex justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
@@ -45,18 +45,18 @@ export default function Navbar() {
 
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <Link href="/#projects-section" passHref={true}>
-                    <a className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                    <a className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium">
                       Portfolio
                     </a>
                   </Link>
 
                   <Link href="/projects/about-me" passHref={true}>
-                    <a className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                    <a className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium">
                       About
                     </a>
                   </Link>
                   <Link href="/contact" passHref={true}>
-                    <a className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                    <a className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium">
                       Contact
                     </a>
                   </Link>

@@ -4,18 +4,23 @@ const projectsData = [
     description: "Some stuff about HIPAA",
     href: "/projects/hipaa",
     imageUrl: "/hipaa.png",
+    projectHref:
+      "https://jesuscoboportfolio.s3.amazonaws.com/hipaa-privacy-rule-for-healthcare-employees-raw-ONmH5f7P/content/index.html#/",
   },
   {
     name: "Applicant Screening in Property Management",
     description: "Property management stuff",
     href: "/projects/property-management",
     imageUrl: "/property-management.png",
+    projectHref:
+      "https://jesuscoboportfolio.s3.amazonaws.com/Property+Management+-+Applicant+Screening+-+Storyline+output/story.html",
   },
   {
     name: "Avoiding Stereotypes",
     description: "Property management stuff",
     href: "/projects/avoiding-stereotypes",
     imageUrl: "/avoiding-stereotypes.png",
+    projectHref: "/projects/avoiding-stereotypes",
   },
 ];
 

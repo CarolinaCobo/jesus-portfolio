@@ -2,8 +2,6 @@ import projectsData from "./CardsData";
 
 import Link from "next/link";
 
-const cardsData = projectsData;
-
 export default function Card() {
   return (
     <>
@@ -84,7 +82,7 @@ export default function Card() {
                 <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div className="flex-1">
                     <a href={cardData.href}>
-                      <p className="text-xl leading-6 font-medium space-y-1 text-sky-600 ">
+                      <p className="text-xl leading-6 font-medium space-y-1 text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-900  hover:to-sky-600 ">
                         {cardData.name}
                       </p>
                     </a>
@@ -104,9 +102,9 @@ export default function Card() {
                       </Link>
                     </div>
                     <div className="w-full">
-                      <Link href="#testimonials-section">
+                      <Link href={cardData.projectHref}>
                         <a className="w-full flex items-center justify-center py-3 border bg-white font-small text-dark md:text-sm bg-gradient-to-r hover:from-sky-600 hover:to-sky-500 hover:text-white">
-                          Open project
+                          Experience the project
                         </a>
                       </Link>
                     </div>

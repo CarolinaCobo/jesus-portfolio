@@ -6,7 +6,7 @@ import { BLOCKS, INLINES, MARKS } from "@contentful/rich-text-types";
 import styles from "./projects.module.css";
 
 import Footer from "../../components/Footer/Footer";
-import Navbar from "../../components/Nav/NavBar";
+import NavbarProjects from "../../components/Nav/NavBarProjects";
 
 const options = {
   renderMark: {
@@ -110,9 +110,14 @@ export default function Post({ post }) {
             <meta property="og:type" content="article" />
             <meta property="og:url" content="https://jesushcobo/projects/" />
           </Head>
-          <Navbar />
+          <NavbarProjects />
           <article className={styles["post"]}>
             <div>{/* Put your header here */}</div>
+            {post.links?.data.map(({ label, url }) => (
+              <a className={styles["custom-link-button"]} key={url} href={url}>
+                {label}
+              </a>
+            ))}
             <div>{documentToReactComponents(post.content, options)}</div>
           </article>
           <Footer />
