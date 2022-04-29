@@ -1,7 +1,7 @@
 const projectsData = [
   {
     name: "HIPAA Privacy Rule for Healthcare Employees",
-    description: "Some stuff about HIPAA",
+    description: "E-LEARNING | ARTICULATE STORYLINE 360",
     href: "/projects/hipaa",
     imageUrl: "/hipaa.png",
     projectHref:
@@ -9,7 +9,7 @@ const projectsData = [
   },
   {
     name: "Applicant Screening in Property Management",
-    description: "Property management stuff",
+    description: "E-LEARNING | ARTICULATE RISE 360",
     href: "/projects/property-management",
     imageUrl: "/property-management.png",
     projectHref:
@@ -17,7 +17,7 @@ const projectsData = [
   },
   {
     name: "Avoiding Stereotypes",
-    description: "Property management stuff",
+    description: "INSTRUCTOR-LED TRAINING (ILT)",
     href: "/projects/avoiding-stereotypes",
     imageUrl: "/avoiding-stereotypes.png",
     projectHref: "/projects/avoiding-stereotypes",
