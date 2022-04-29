@@ -7,6 +7,7 @@ import styles from "./projects.module.css";
 
 import Footer from "../../components/Footer/Footer";
 import NavbarProjects from "../../components/Nav/NavBarProjects";
+import PostHeader from "../../components/post-header";
 
 const options = {
   renderMark: {
@@ -95,7 +96,7 @@ export default function Post({ post }) {
             <meta
               key="og:image"
               property="og:image"
-              // content={`https:${post.ogImage.fields.file.url}`}
+              content={`https:${post.image.fields.file.url}`}
             />
             <meta
               key="og:description"
@@ -110,14 +111,18 @@ export default function Post({ post }) {
             <meta property="og:type" content="article" />
             <meta property="og:url" content="https://jesushcobo/projects/" />
           </Head>
-          <NavbarProjects />
+          <div className="bg-sky-600">
+            <NavbarProjects />
+            <PostHeader
+              title={post.title}
+              coverImage={`https:${post.image.fields.file.url}`}
+              ctaLabel={post.ctaLabel}
+              ctaUrl={post.ctaUrl}
+            />
+          </div>
           <article className={styles["post"]}>
             <div>{/* Put your header here */}</div>
-            {post.links?.data.map(({ label, url }) => (
-              <a className={styles["custom-link-button"]} key={url} href={url}>
-                {label}
-              </a>
-            ))}
+
             <div>{documentToReactComponents(post.content, options)}</div>
           </article>
           <Footer />

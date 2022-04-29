@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main
-        className="relative bg-contain bg-no-repeat"
+        className="relative bg-contain bg-no-repeat "
         style={{
           backgroundImage: "url(./banner.jpeg)",
         }}
