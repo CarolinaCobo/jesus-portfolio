@@ -27,7 +27,8 @@ const projectsData = [
     description: "BILINGUAL JOB AID",
     href: "/projects/back-safety",
     imageUrl: "/safety.png",
-    projectHref: "/projects/back-safety",
+    projectHref:
+      "https://jesuscoboportfolio.s3.amazonaws.com/Job+Aid+-+Back+Safety+for+Movers.pdf",
   },
 ];
 
