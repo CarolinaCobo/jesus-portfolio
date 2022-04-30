@@ -22,6 +22,13 @@ const projectsData = [
     imageUrl: "/avoiding-stereotypes.png",
     projectHref: "/projects/avoiding-stereotypes",
   },
+  {
+    name: "Back Safety for Movers",
+    description: "BILINGUAL JOB AID",
+    href: "/projects/back-safety",
+    imageUrl: "/safety.png",
+    projectHref: "/projects/back-safety",
+  },
 ];
 
 export default projectsData;
