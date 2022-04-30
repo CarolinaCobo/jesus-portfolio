@@ -111,14 +111,23 @@ export default function Post({ post }) {
             <meta property="og:type" content="article" />
             <meta property="og:url" content="https://jesushcobo/projects/" />
           </Head>
-          <div className="bg-sky-600">
+          <div className="bg-sky-600 pb-16">
             <NavbarProjects />
             <PostHeader
               title={post.title}
               coverImage={`https:${post.image.fields.file.url}`}
-              ctaLabel={post.ctaLabel}
-              ctaUrl={post.ctaUrl}
             />
+            <div className="absolute">
+              <div className="relative pb-16">
+                {post.multipleProjects?.data.map(({ label, url }) => (
+                  <div key={url} className="mb-8">
+                    <a className={styles["custom-link-button"]} href={url}>
+                      {label}
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
           <article className={styles["post"]}>
             <div>{/* Put your header here */}</div>
