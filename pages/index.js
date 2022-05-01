@@ -20,9 +20,9 @@ export default function Home() {
         }}
       >
         <Navbar />
-
-        <Hero />
-
+        <div className="md:container md:mx-auto">
+          <Hero />
+        </div>
         <Card />
         <Footer />
       </main>

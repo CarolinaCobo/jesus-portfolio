@@ -93,11 +93,13 @@ export default function Post({ post }) {
           <Head>
             <title>{post.title}</title>
             <meta key="og:title" property="og:title" content={post.title} />
-            <meta
-              key="og:image"
-              property="og:image"
-              content={`https:${post.image.fields.file.url}`}
-            />
+            {post.image?.fields && (
+              <meta
+                key="og:image"
+                property="og:image"
+                content={`https:${post.image.fields.file.url}`}
+              />
+            )}
             <meta
               key="og:description"
               property="og:description"
@@ -115,19 +117,11 @@ export default function Post({ post }) {
             <NavbarProjects />
             <PostHeader
               title={post.title}
-              coverImage={`https:${post.image.fields.file.url}`}
+              coverImage={
+                post.image ? `https:${post.image.fields.file.url}` : null
+              }
+              links={post.multipleProjects?.data}
             />
-            <div className="absolute">
-              <div className="relative pb-16">
-                {post.multipleProjects?.data.map(({ label, url }) => (
-                  <div key={url} className="mb-8">
-                    <a className={styles["custom-link-button"]} href={url}>
-                      {label}
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
           <article className={styles["post"]}>
             <div>{/* Put your header here */}</div>
