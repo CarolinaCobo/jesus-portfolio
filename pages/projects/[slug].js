@@ -113,7 +113,7 @@ export default function Post({ post }) {
             <meta property="og:type" content="article" />
             <meta property="og:url" content="https://jesushcobo/projects/" />
           </Head>
-          <div className="bg-sky-600 pb-16">
+          <div className="pb-16 bg-gradient-to-r from-sky-600 to-sky-500">
             <NavbarProjects />
             <PostHeader
               title={post.title}

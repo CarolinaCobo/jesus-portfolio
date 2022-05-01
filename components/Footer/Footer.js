@@ -59,7 +59,7 @@ export default function Footer() {
             <a
               key={item.name}
               href={item.href}
-              className=" text-gray-900 hover:text-sky-700"
+              className=" text-gray-900 hover:text-sky-600"
               target="_blank"
               rel="noreferrer"
             >
