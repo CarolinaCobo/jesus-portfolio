@@ -18,12 +18,11 @@ export default function Home() {
           backgroundImage: "url(./banner.png)",
         }}
       >
-        <div className="bg-gradient-to-r from-gray-600">
-          <Navbar />
-          <div className="md:container md:mx-auto ">
-            <Hero />
-          </div>
+        <Navbar />
+        <div className="md:container md:mx-auto ">
+          <Hero />
         </div>
+
         <Card />
         <Footer />
       </main>

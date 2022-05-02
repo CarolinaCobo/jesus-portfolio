@@ -192,6 +192,8 @@ export const getContentfulPostBySlug = async function (slug, preview = false) {
 export async function getStaticPaths() {
   const newPosts = await getContentfulPosts();
 
+  console.log(newPosts);
+
   return {
     paths: newPosts.map((post) => {
       return {

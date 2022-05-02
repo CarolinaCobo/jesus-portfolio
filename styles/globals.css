@@ -25,6 +25,10 @@ a {
   box-sizing: border-box;
 }
 
+.text-background {
+  backdrop-filter: blur(4px);
+}
+
 @layer utilities {
   .jesus-color-link {
     @apply relative bg-clip-text text-transparent bg-gradient-to-b from-jesus-pink to-jesus-blue border-jesus-blue border-b-2 font-semibold transition-all duration-500;

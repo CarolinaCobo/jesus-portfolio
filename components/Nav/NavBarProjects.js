@@ -46,18 +46,18 @@ export default function NavbarProject() {
 
                   <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                     <Link href="/#projects-section" passHref={true}>
-                      <a className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                      <a className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2  text-lg font-medium">
                         Portfolio
                       </a>
                     </Link>
 
                     <Link href="/about" passHref={true}>
-                      <a className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                      <a className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2  text-lg font-medium">
                         About
                       </a>
                     </Link>
                     <Link href="/contact" passHref={true}>
-                      <a className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                      <a className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2  text-lg font-medium">
                         Contact
                       </a>
                     </Link>
