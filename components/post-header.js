@@ -14,6 +14,8 @@ export default function PostHeader({ title, coverImage, links }) {
                 <div key={url} className="mt-8">
                   <a
                     className="block mb-8 py-3 border md:text-sm sm:mb-0 md:mr-2 px-8 mx-auto text-center bg-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-sky-500 hover:text-white "
+                    target="_blank"
+                    rel="noreferrer"
                     href={url}
                   >
                     {label}

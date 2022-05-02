@@ -27,7 +27,7 @@ export default function Navbar() {
                     <a>
                       <img
                         className="block lg:hidden h-6 w-auto"
-                        src="/logo.png"
+                        src="/logo.svg"
                         alt="Workflow"
                       />
                     </a>
@@ -36,7 +36,7 @@ export default function Navbar() {
                     <a>
                       <img
                         className="hidden lg:block h-8 w-auto"
-                        src="/logo.png"
+                        src="/logo.svg"
                         alt="Workflow"
                       />
                     </a>
@@ -52,7 +52,7 @@ export default function Navbar() {
 
                   <Link href="/about" passHref={true}>
                     <a className="border-transparent text-white hover:border-sky-600 hover:text-sky-600 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium">
-                      About
+                      About Me
                     </a>
                   </Link>
                   <Link href="/contact" passHref={true}>
@@ -84,7 +84,7 @@ export default function Navbar() {
               </Disclosure.Button>
               <Disclosure.Button className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 <Link href="/about" passHref={true}>
-                  <a>About</a>
+                  <a>About Me</a>
                 </Link>
               </Disclosure.Button>
               <Disclosure.Button

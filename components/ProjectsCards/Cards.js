@@ -45,7 +45,7 @@ export default function Card() {
                     </a>
                     <a href={cardData.href} className="block mt-2">
                       <p className="text-xl font-semibold text-gray-900"></p>
-                      <p className="mt-3 text-base text-gray-500">
+                      <p className="mt-3 text-base text-gray-900">
                         {cardData.description}
                       </p>
                     </a>
@@ -53,14 +53,22 @@ export default function Card() {
                   <div className="mt-5 sm:mt-8 sm:flex">
                     <div className="w-full">
                       <Link href={cardData.href}>
-                        <a className="flex items-center justify-center py-3 border bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-900  hover:to-sky-600 font-small text-white md:text-sm mb-2 sm:mb-0 md:mr-2">
+                        <a
+                          className="flex items-center justify-center py-3 border bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-900  hover:to-sky-600 font-small text-white md:text-sm mb-2 sm:mb-0 md:mr-2"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           Learn more
                         </a>
                       </Link>
                     </div>
                     <div className="w-full">
                       <Link href={cardData.projectHref}>
-                        <a className="w-full flex items-center justify-center py-3 border bg-white font-small text-dark md:text-sm bg-gradient-to-r hover:from-sky-600 hover:to-sky-500 hover:text-white">
+                        <a
+                          className="w-full flex items-center justify-center py-3 border bg-white font-small text-dark md:text-sm bg-gradient-to-r hover:from-sky-600 hover:to-sky-500 hover:text-white"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           Experience the project
                         </a>
                       </Link>
