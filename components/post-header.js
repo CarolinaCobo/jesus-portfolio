@@ -2,10 +2,10 @@ import CoverImage from "../components/cover-image";
 
 export default function PostHeader({ title, coverImage, links }) {
   return (
-    <div className="container mx-auto ">
-      <div className="mt-10 lg:grid sm:grid-cols-6 sm:gap-6 pb-6 flex flex-col-reverse">
-        <div className="md:col-start-2 md:col-span-2 md:place-content-center">
-          <h1 className="lg:mb-6 xl:pt-16 text-3xl tracking-tight font-medium text-white sm:text4xl md:text-5xl ">
+    <div className="container mx-auto">
+      <div className="mt-14 lg:grid sm:grid-cols-6 sm:gap-6 flex flex-col-reverse ">
+        <div className="md:col-start-2 md:col-span-2">
+          <h1 className="lg:mb-6 text-3xl tracking-tight font-medium text-white sm:text4xl md:text-5xl ">
             {title}
           </h1>
           <div className="md:w-3/4">
