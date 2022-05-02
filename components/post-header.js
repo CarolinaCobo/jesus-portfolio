@@ -1,6 +1,6 @@
 import CoverImage from "../components/cover-image";
 
-export default function PostHeader({ title, coverImage, links, ctaLabel }) {
+export default function PostHeader({ title, coverImage, links }) {
   return (
     <div className="container mx-auto ">
       <div className="mt-10 md:grid sm:grid-cols-6 sm:gap-6 pb-6 flex flex-col-reverse">
@@ -22,7 +22,7 @@ export default function PostHeader({ title, coverImage, links, ctaLabel }) {
               ))}
           </div>
         </div>
-        <div className="md:col-span-2 md:mt-36">
+        <div className="md:col-span-2">
           {coverImage && (
             <CoverImage
               title={title}

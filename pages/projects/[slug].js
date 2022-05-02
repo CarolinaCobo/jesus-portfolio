@@ -125,7 +125,6 @@ export default function Post({ post }) {
           </div>
           <article className={styles["post"]}>
             <div>{/* Put your header here */}</div>
-
             <div>{documentToReactComponents(post.content, options)}</div>
           </article>
           <Footer />

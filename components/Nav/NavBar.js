@@ -11,7 +11,7 @@ export default function Navbar() {
             <div className="relative flex justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-00 focus:outline-none focus:ring-2 focus:ring-inset ">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-sky-600 hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-inset ">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -50,7 +50,7 @@ export default function Navbar() {
                     </a>
                   </Link>
 
-                  <Link href="/projects/about-me" passHref={true}>
+                  <Link href="/about" passHref={true}>
                     <a className="border-transparent text-white hover:border-sky-600 hover:text-sky-600 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium">
                       About
                     </a>
@@ -69,7 +69,7 @@ export default function Navbar() {
             <div className="pt-2 pb-4 space-y-1">
               <Disclosure.Button
                 as="a"
-                className="border-transparent text-gray-900 hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
                 <Link href="/" passHref={true}>
                   <a>Home</a>
@@ -78,18 +78,18 @@ export default function Navbar() {
               <Disclosure.Button
                 as="a"
                 href="/#projects-section"
-                className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
                 Portfolio
               </Disclosure.Button>
-              <Disclosure.Button className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+              <Disclosure.Button className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                 <Link href="/about" passHref={true}>
                   <a>About</a>
                 </Link>
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
-                className="border-transparent text-gray-500 hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               >
                 <Link href="/contact" passHref={true}>
                   <a>Contact</a>
