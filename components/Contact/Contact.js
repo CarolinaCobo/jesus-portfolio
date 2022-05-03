@@ -90,7 +90,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="px-4 overflow-hidden sm:px-6 lg:px-8">
-        <div className="pb-16 max-w-3xl mx-2 sm:mx-6 md:mx-auto">
+        <div className="pb-4 max-w-3xl mx-2 sm:mx-6 md:mx-auto">
           <p className="mt-8 text-xl text-gray-900 leading-8">
             I would love to hear from you. Please reach out by{" "}
             <a
@@ -112,14 +112,8 @@ export default function Contact() {
             </a>{" "}
             or by filling the form below.
           </p>
-          <p className="mt-8 text-xl text-gray-900 leading-8">
-            Thank you for visiting my portfolio.
-            <p className="mt-4">- Jesús</p>
-          </p>
         </div>
-        <hr></hr>
-        <div className="relative max-w-xl mx-auto mt-8">
-          <h1 className="text-2xl text-center ">Contact Form</h1>
+        <div className="relative max-w-xl mx-auto my-12">
           <div id="formInfo" className="mt-12">
             <form
               ref={form}
