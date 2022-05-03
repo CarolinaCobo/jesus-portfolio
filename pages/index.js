@@ -15,7 +15,7 @@ export default function Home() {
       <main
         className="relative bg-contain bg-no-repeat"
         style={{
-          backgroundImage: "url(./banner.png)",
+          backgroundImage: "url(./banner.jpeg)",
         }}
       >
         <Navbar />
