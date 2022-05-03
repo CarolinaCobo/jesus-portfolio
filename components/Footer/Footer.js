@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 const navigation = [
   {
     name: "Email",
@@ -39,7 +38,7 @@ export default function Footer() {
             <a
               key={item.name}
               href={item.href}
-              className=" text-gray-900 hover:text-sky-600"
+              className="text-sky-600 hover:text-sky-800"
               target="_blank"
               rel="noreferrer"
             >

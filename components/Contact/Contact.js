@@ -117,8 +117,9 @@ export default function Contact() {
             <p className="mt-4">- Jesús</p>
           </p>
         </div>
-        <div className="relative max-w-xl mx-auto">
-          {/* <h1>Contact Form</h1> */}
+        <hr></hr>
+        <div className="relative max-w-xl mx-auto mt-8">
+          <h1 className="text-2xl text-center ">Contact Form</h1>
           <div id="formInfo" className="mt-12">
             <form
               ref={form}
