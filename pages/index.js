@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Jesús Cobo Portfolio</title>
 
-        <meta name="description" content="Jesús Cobo Portfolio" />
+        <meta name="description" content="Jesús Cobo - Portfolio" />
         <link rel="icon" href="/favicon.ico" />
         <meta
           key="og:title"
@@ -36,7 +36,9 @@ export default function Home() {
           backgroundImage: "url(./banner.jpeg)",
         }}
       >
-        <Navbar />
+        <div className="bg-gray-900  bg-opacity-25">
+          <Navbar />
+        </div>
         <div className="md:container md:mx-auto ">
           <Hero />
         </div>

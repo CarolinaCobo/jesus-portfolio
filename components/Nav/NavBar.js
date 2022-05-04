@@ -65,11 +65,11 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="sm:hidden bg-gray-900  bg-opacity-25 ">
             <div className="pt-2 pb-4 space-y-1">
               <Disclosure.Button
                 as="a"
-                className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                className="border-transparent text-white hover:border-sky-600 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium "
               >
                 <Link href="/" passHref={true}>
                   <a>Home</a>
