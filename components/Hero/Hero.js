@@ -16,7 +16,7 @@ export default function Hero() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center items-center sm:p-16">
+      <div className="flex flex-col justify-center items-center sm:p-16 sm:ml-16">
         <img
           className="rounded-full h-full w-48 md:w-2/3"
           src="/headerimage.png"
