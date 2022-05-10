@@ -10,7 +10,7 @@ export default function Hero() {
             </span>
           </span>
         </h1>
-        <p className="text-white text-xs w-72 pb-4 text-center sm:text-xl md:w-96">
+        <p className="text-white text-xs pb-4 text-center sm:text-xl">
           I design and develop learning solutions to match your business needs.
           Welcome to my portfolio
         </p>
