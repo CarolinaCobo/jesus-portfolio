@@ -31,16 +31,18 @@ export default function Home() {
         <meta property="og:url" content="https://www.jesushcobo.com/" />
       </Head>
       <main
-        className="relative bg-contain bg-no-repeat"
-        style={{
-          backgroundImage: "url(./banner.jpeg)",
-        }}
+        className="relative bg-contain bg-no-repeat "
+        style={
+          {
+            // backgroundImage: "url(./banner.jpeg)",
+          }
+        }
       >
-        <div className="bg-gray-900  bg-opacity-25">
+        <div className="bg-gradient-to-r from-sky-600 to-sky-500">
           <Navbar />
-        </div>
-        <div className="md:container md:mx-auto ">
-          <Hero />
+          <div className="md:container md:mx-auto ">
+            <Hero />
+          </div>
         </div>
         <Card />
         <Footer />

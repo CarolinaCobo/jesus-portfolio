@@ -65,7 +65,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden bg-gray-900  bg-opacity-25 ">
+          <Disclosure.Panel className="sm:hidden">
             <div className="pt-2 pb-4 space-y-1">
               <Disclosure.Button
                 as="a"
