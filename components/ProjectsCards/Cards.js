@@ -6,7 +6,7 @@ export default function Card() {
   return (
     <>
       <div className="relative bg-white sm:pt-4">
-        <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl md:pt-8">
+        <h2 className="text-center mt-4 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl md:pt-8">
           Portfolio
         </h2>
         {/* <div className="absolute inset-0">
