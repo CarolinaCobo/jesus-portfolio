@@ -30,6 +30,14 @@ const projectsData = [
     projectHref:
       "https://jesuscoboportfolio.s3.amazonaws.com/Job+Aid+-+Back+Safety+for+Movers.pdf",
   },
+  {
+    name: "Using PowerPoint Slide Master",
+    description: "VIDEO TUTORIAL | CAMTASIA",
+    href: "/projects/using-powerpoint-slide-master",
+    imageUrl: "/powerpoint-slide.png",
+    projectHref:
+      "https://jesuscoboportfolio.s3.amazonaws.com/Quick+Tips+PowerPoint+Slide+Master.mp4",
+  },
 ];
 
 export default projectsData;
