@@ -41,10 +41,10 @@ const projectsData = [
   {
     name: "Using PowerPoint Slide Master",
     description: "VIDEO TUTORIAL | CAMTASIA",
-    href: "/projects/using-powerpoint-slide-master",
+    href: "/projects/how-to-file-an-insurance-claim",
     imageUrl: "/powerpoint-slide.png",
     projectHref:
-      "https://jesuscoboportfolio.s3.amazonaws.com/Filing+An+Insurance+Claim-1080p-220713.mp4",
+      "https://jesuscoboportfolio.s3.amazonaws.com/Quick+Tips+PowerPoint+Slide+Master.mp4",
   },
 ];
 
