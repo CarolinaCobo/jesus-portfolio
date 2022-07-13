@@ -42,7 +42,7 @@ const projectsData = [
     name: "Using PowerPoint Slide Master",
     description: "VIDEO TUTORIAL | CAMTASIA",
     href: "/projects/how-to-file-an-insurance-claim",
-    imageUrl: "/powerpoint-slide.png",
+    imageUrl: "/72435BF1-9AE0-4E74-A248-35E15F25602B.png",
     projectHref:
       "https://jesuscoboportfolio.s3.amazonaws.com/Quick+Tips+PowerPoint+Slide+Master.mp4",
   },
