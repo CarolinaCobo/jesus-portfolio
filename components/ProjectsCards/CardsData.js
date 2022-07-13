@@ -31,20 +31,20 @@ const projectsData = [
       "https://jesuscoboportfolio.s3.amazonaws.com/Job+Aid+-+Back+Safety+for+Movers.pdf",
   },
   {
-    name: "How to File an Insurance Claim",
-    description: "VIDEO | VYOND",
+    name: "Using PowerPoint Slide Master",
+     description: "VIDEO TUTORIAL | CAMTASIA",
     href: "/projects/using-powerpoint-slide-master",
     imageUrl: "/powerpoint-slide.png",
     projectHref:
       "https://jesuscoboportfolio.s3.amazonaws.com/Quick+Tips+PowerPoint+Slide+Master.mp4",
   },
   {
-    name: "Using PowerPoint Slide Master",
-    description: "VIDEO TUTORIAL | CAMTASIA",
+    name: "How to File an Insurance Claim",
+    description: "VIDEO | VYOND",
     href: "/projects/how-to-file-an-insurance-claim",
     imageUrl: "/72435BF1-9AE0-4E74-A248-35E15F25602B.png",
     projectHref:
-      "https://jesuscoboportfolio.s3.amazonaws.com/Quick+Tips+PowerPoint+Slide+Master.mp4",
+      "https://jesuscoboportfolio.s3.amazonaws.com/Filing+An+Insurance+Claim-1080p-220713.mp4",
   },
 ];
 
